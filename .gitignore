@@ -47,3 +47,23 @@ Thumbs.db
 
 # Secrets
 env.php
+
+# Docs
+Documentation/
+Scripts/PHP/CMS
+Scripts/PHP/CMS2
+Scripts/PHP/EmailFormScript
+Scripts/PHP/Gallery
+Scripts/PHP/InteractiveFloorPlanDev
+Scripts/PHP/MemberLoginDev
+Scripts/PHP/CMS.zip
+Scripts/PHP/CMS2.zip
+Scripts/PHP/EmailFormScript.zip
+Scripts/PHP/Gallery.zip
+Scripts/PHP/InteractiveFloorPlanDev.zip
+Scripts/PHP/MemberLoginDev.zip
+
+.zip
+
+*config.inc.php
+*google*
