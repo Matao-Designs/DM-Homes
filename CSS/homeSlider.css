@@ -1,0 +1,38 @@
+.imageContainer {
+  width: 100%;
+  height: 100vh;
+}
+
+#image1 {
+  background-image: url("../Media/Images/homeScreen/IMG_0006.jpg");
+  z-index: 6;
+}
+#image2 {
+  background-image: url("../Media/Images/homeScreen/IMG_0005.jpg");
+  z-index: 5;
+}
+#image3 {
+  background-image: url("../Media/Images/homeScreen/IMG_0224.jpg");
+  z-index: 4;
+}
+#image4 {
+  background-image: url("../Media/Images/homeScreen/IMG_0233.jpg");
+  z-index: 3;
+}
+#image5 {
+  background-image: url("../Media/Images/homeScreen/IMG_0076.jpg");
+  z-index: 2;
+}
+#image6 {
+  background-image: url("../Media/Images/homeScreen/IMG_0782.jpg");
+  z-index: 1;
+}
+
+.image {
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: absolute;
+}

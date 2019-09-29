@@ -1,0 +1,668 @@
+
+
+
+/******Navigation*******/
+
+body {
+    overflow-x: hidden;
+}
+
+
+/* Header Styles for Demo */
+
+
+
+.navbar-inverse .navbar-nav > .open > a, .navbar-inverse .navbar-nav > .open > a:hover, .navbar-inverse .navbar-nav > .open > a:focus {
+    color: #fff;
+    background-color: rgba(102,102,102,0.5);
+    border-radius: 5px;
+}
+
+.img-nav ul {
+    height: 100px;
+    background: white;
+    position: relative;
+    left: 50%;
+}
+
+    .img-nav li{
+        list-style-type: none;
+    }
+
+    .img-nav li a   {
+        text-decoration: none;
+        border: none;
+    }
+
+    .img-nav li a img   {
+        padding: 5px;
+    }
+
+@media (min-width: 768px) {
+    .navbar-right {
+        float: right !important;
+        margin-right: -40px;
+    }
+}
+
+    #testimonialsSetup h2   {
+        font-family: 'Crimson Text', serif;
+    }
+
+    .testimonialsQuote  {
+        padding:300px 0;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: 100%;
+        background-attachment: fixed;
+        color: white;
+    }
+
+#habitat  {
+    padding:250px 0;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    color: white;
+    text-shadow: 2px 2px 4px #333;
+}
+
+#selectMap  {
+    padding:100px 0;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    margin-left: -15px;
+    margin-right: -15px;
+}
+
+#selectMap h3   {
+    padding-top: 0px;
+    position: relative;
+    top: -50px;
+}
+
+#contactInfo  {
+    padding:20px 0;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    text-shadow: 2px 2px 4px #333;
+}
+
+/******Header*******/
+header  {
+    background-color: #333;
+}
+
+header h2   {
+    color: #fff;
+    margin-top: 0px;
+    padding: 10px;
+}
+
+/******Main Content*******/
+#mainContent    {
+    min-height: 1200px;
+}
+
+.scroll-down    {
+    position: absolute;
+    width: 100%;
+    bottom: 20px;
+    text-align: center;
+    z-index: 99;
+}
+
+.about-text {
+    text-align: left;
+
+}
+
+.line   {
+    height: 4px;
+    border-top: 1px solid white;
+    border-bottom: 1px solid white;
+    width: 70%;
+    margin: 0 auto;
+}
+
+.line2   {
+    height: 4px;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    width: 70%;
+    margin: 0 auto;
+}
+
+#offSiteHeader  {
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    color: white;
+    text-shadow: 2px 2px 0px #000;
+
+}
+
+
+
+/*Carousel*/
+.slide1, .slide2, .slide3, .slide4, .slide5, .slide6, .slide7, .slide8, .slide9, .slide10 {
+    height: 100vh; /* Must have a height or min-height set due to use of background images */
+    background-size: cover;
+    background-position: center center;
+}
+.slide1 {
+    background-image: url('../Media/Images/homeScreen/IMG_0005.jpg');
+    background-attachment: fixed;
+}
+.slide2 {
+    background-image: url('../Media/Images/homeScreen/IMG_0006.jpg');
+    background-attachment: fixed;
+}
+.slide3 {
+    background-image: url('../Media/Images/homeScreen/IMG_0044_2.jpg');
+    background-attachment: fixed;
+}
+.slide4 {
+    background-image: url('../Media/Images/homeScreen/IMG_0076.jpg');
+    background-attachment: fixed;
+}
+.slide5 {
+    background-image: url('../Media/Images/homeScreen/IMG_0102.jpg');
+    background-attachment: fixed;
+}.slide6 {
+     background-image: url('../Media/Images/homeScreen/IMG_0224.jpg');
+     background-attachment: fixed;
+ }.slide7 {
+      background-image: url('../Media/Images/homeScreen/IMG_0228.jpg');
+      background-attachment: fixed;
+  }.slide8 {
+       background-image: url('../Media/Images/homeScreen/IMG_0233.jpg');
+       background-attachment: fixed;
+   }.slide9 {
+        background-image: url('../Media/Images/homeScreen/IMG_0629.jpg');
+        background-attachment: fixed;
+    }.slide10{
+         background-image: url('../Media/Images/homeScreen/IMG_0782.jpg');
+         background-attachment: fixed;
+     }
+/* Carousel Fade Effect*/
+.carousel.carousel-fade .item {
+    -webkit-transition: opacity 2s linear;
+    -moz-transition: opacity 2s linear;
+    -ms-transition: opacity 2s linear;
+    -o-transition: opacity 2s linear;
+    transition: opacity 2s linear;
+    opacity: 1;
+}
+
+ .item {
+      -webkit-transition: -webkit-transform 2s ease-in-out;
+        -o-transition: -o-transform 2s ease-in-out;
+      transition: transform 2s ease-in-out;
+     -webkit-backface-visibility: hidden;
+     backface-visibility: hidden;
+     -webkit-perspective: 1000px;
+     perspective: 1000px;
+    }
+
+.carousel.carousel-fade .active.item {
+    opacity: 1;
+}
+.carousel.carousel-fade .active.left,
+.carousel.carousel-fade .active.right {
+    left: 0;
+    z-index: 2;
+    opacity: 1;
+    filter: alpha(opacity=0);
+}
+/* Carousel Overlay */
+.carousel-overlay {
+    position: absolute;
+    bottom: 30%;
+    right: 0;
+    left: 0;
+    color: #ffffff;
+    z-index: 99
+}
+
+
+.carousel-inner {
+    font-family: Arial;
+}
+
+#learnMore  {
+    background: transparent;
+    color: #fff;
+
+}
+
+#learnMore:hover    {
+    color: silver
+
+}
+
+#meetTheFam {
+    background-color: #e0e0e0;
+}
+
+.filler {
+    margin-top: 120px;
+}
+
+.communityListing   {
+    border-radius: 10px;
+    box-shadow: 3px 3px 6px #000;
+    min-height: 100px;
+    width: 80%;
+    background: rgb(254,254,254);
+    background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSI2OCUiIHN0b3AtY29sb3I9IiNmZWZlZmUiIHN0b3Atb3BhY2l0eT0iMSIvPgogICAgPHN0b3Agb2Zmc2V0PSI5NCUiIHN0b3AtY29sb3I9IiNmMmYyZjIiIHN0b3Atb3BhY2l0eT0iMSIvPgogICAgPHN0b3Agb2Zmc2V0PSIxMDAlIiBzdG9wLWNvbG9yPSIjZjJmMmYyIiBzdG9wLW9wYWNpdHk9IjEiLz4KICA8L2xpbmVhckdyYWRpZW50PgogIDxyZWN0IHg9IjAiIHk9IjAiIHdpZHRoPSIxIiBoZWlnaHQ9IjEiIGZpbGw9InVybCgjZ3JhZC11Y2dnLWdlbmVyYXRlZCkiIC8+Cjwvc3ZnPg==);
+    background: -moz-linear-gradient(top,  rgba(254,254,254,1) 68%, rgba(242,242,242,1) 94%, rgba(242,242,242,1) 100%);
+    background: -webkit-linear-gradient(top,  rgba(254,254,254,1) 68%,rgba(242,242,242,1) 94%,rgba(242,242,242,1) 100%);
+    background: linear-gradient(to bottom,  rgba(254,254,254,1) 68%,rgba(242,242,242,1) 94%,rgba(242,242,242,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fefefe', endColorstr='#f2f2f2',GradientType=0 );
+
+    margin: 5px auto;
+    color: black;
+}
+
+.communityListing h4    {
+    text-shadow: none;
+    font-family: 'Crimson Text', serif;
+    font-size: 24px;
+    padding: 10px;
+}
+
+.communityListing p    {
+    text-shadow: none;
+    padding: 10px;
+    font-size: 16px;
+}
+
+.communityListing .well {
+    margin-right: 15px;
+
+}
+
+
+.googleMap  {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    min-height: 450px;
+    margin: 5px auto;
+    color: black;
+}
+
+.mapRow {
+    background-attachment: scroll;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.googleMapAC  {
+
+   margin: 5px auto;
+    color: black;
+    border-radius: 10px;
+}
+
+
+/******Footer*******/
+footer  {
+    background-color: #333;
+    margin-top: 30px;
+}
+
+footer h2 {
+    color: #fff;
+    margin-top: 0px;
+    padding: 10px;
+}
+footer a    {
+    color: white;
+}
+
+footer a:hover  {
+    color: red;
+}
+footer input    {
+    margin-bottom: 10px;
+}
+footer textarea    {
+    margin-top: 10px;
+}
+#theMap {
+    position: relative;
+    z-index: 2;
+    width: 100%;
+    min-height: 200px;
+}
+
+#theOverlay {
+    position: relative;
+    z-index: 5;
+    color: white;
+}
+
+#silverCreek    {
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    color: white;
+    margin-left: -15px;
+    margin-right: -15px;
+}
+
+#silverCreek h3 {
+    font-family: 'Crimson Text', serif;
+    color: white;
+}
+
+/****Autumn Creek****/
+
+#autumnCreekMap {
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: left;
+    background-repeat: no-repeat;
+}
+
+#theVistasMap {
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: right;
+    background-repeat: no-repeat;
+}
+
+.autumnCreekMap {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#specHomes table tr td   {
+    padding: 5px;
+    margin: auto;
+    max-height: 300px;
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+
+#specHomes table tr:first-child td {
+font-weight: bold;
+    border-bottom: 1px solid white;
+}
+
+.row    {
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+.container-fluid    {
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+.galleryHeader {
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: left;
+    background-repeat: no-repeat;
+    padding-top: 150px;
+    padding-bottom: 150px;
+}
+
+#homeStylesHeader   {
+    background-attachment: fixed;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+body.modal-open {
+    overflow: visible;
+}
+
+
+#communities {
+    background-image: url("../Media/Images/communitiesBg.JPG");
+    background-size: cover;
+    background-position: left;
+    background-repeat: no-repeat;
+    height: 275px;
+    overflow-y: hidden;
+}
+
+.communitiesText {
+    margin-left: 50px;
+    color: white;
+    font-family: "Cardo", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.communitiesText ul {
+    margin-left: 30px;
+}
+
+.communitiesText2 {
+    margin-right: 50px;
+    color: white;
+    font-family: "Cardo", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    text-align: right;
+}
+
+.communitiesText2 ul {
+    margin-right: 30px;
+    text-align: right;
+    list-style-position: outside;
+}
+
+.communitiesText3  {
+    text-align: center;
+    position: relative;
+    top: 0;
+    left: 0;
+    color: white;
+}
+
+
+.overLay1 {
+    position: relative;
+    margin-top: -110px;
+    padding-top: 20px;
+    height: 330px;
+    background-size: cover;
+    background: url("../Media/Images/communitiesOverlay.png") no-repeat;
+    background-position: left;
+}
+
+.overLay2 {
+    position: relative;
+    margin-top: -110px;
+    padding-top: 20px;
+    height: 330px;
+    background-size: cover;
+    background: url("../Media/Images/communitiesOverlay2.png") no-repeat;
+    background-position: right;
+}
+
+.overLay3 {
+    position: relative;
+    margin-top: -110px;
+    padding-top: 20px;
+    left: 140px;
+    height: 330px;
+    background-size: cover;
+    background: url("../Media/Images/communitiesOverlay3.png") no-repeat;
+    background-position: center;
+}
+
+.btn-outline {
+    background: transparent;
+    color: #fff;
+}
+
+#offSite {
+    background-image: url("../Media/Images/offSiteBg.jpg");
+    background-size: cover;
+    background-position: left;
+    background-repeat: no-repeat;
+    height: 275px;
+    overflow: hidden;
+}
+
+#homeStyles {
+    background-image: url("../Media/Images/homeStyles-bg.jpeg");
+    background-size: cover;
+    background-position: left;
+    background-repeat: no-repeat;
+    height: 275px;
+    overflow: hidden;
+}
+
+
+.communityListingContainer {
+    height: 315px;
+    width: 100%;
+    color: white;
+    font-weight: normal;
+    font-family: "Cardo", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.communityListingContainer h3 {
+    margin-top: 15px;
+    margin-left: 10px;
+    padding-top: 10px;
+    font-size: 1.3em;
+}
+
+.communityListingContainer img {
+    width: 50%;
+    margin: auto;
+    margin-top: 50px;
+}
+
+.communityListingContainer a  .btn {
+    position: absolute;
+    bottom: 10px;
+    left: auto;
+}
+.communityListingContainer .row {
+    height: 100%;
+}
+
+.listingsButton {
+    position: absolute;
+    bottom: 55px;
+    left: 55px;
+}
+
+#autumnCreekListing {
+    background-image: url("../Media/Images/autumnCreek-bg.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#oaklandHuntListing {
+    background-image: url("../Media/Images/oaklandHunt-bg.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#theReserveListing {
+    background-image: url("../Media/Images/theReserve-bg.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#casslakeListing {
+    background-image: url("../Media/Images/theVistas-bg.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#nottinghamListing {
+    background-image: url("../Media/Images/silverCreek-bg.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#valenciaListing {
+    background-image: url("../Media/Images/silverCreek-bg.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#silverCreekListing {
+    background-image: url("../Media/Images/silverCreek-bg.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+pre {
+    background: transparent;
+    border: none;
+    color: white;
+    font-size: 1.5em;
+}
+
+.scmsSectionContent table {
+    margin: auto;
+    font-size: 1.5em;
+    width: 60%;
+
+}
+
+.autumnCreekMap p {
+    font-size: 1.5em;
+}
+
+.phoneSplash {
+
+    margin-top: 50px;
+
+}
+
+.largeContainer {
+    position: fixed;
+    top: 50%;
+    margin-top: -165px;
+    left: 50%;
+    margin-left: -265px;
+}
+
+.close {
+    float: right;
+    font-size: 20px;
+    color: silver;
+}
+    .close:hover {
+        color: white;
+    }
+
+.navleft {
+    float: left;
+    font-size: 20px;
+    color: silver;
+}
+
+.navright {
+    float: right;
+    font-size: 20px;
+    color: silver;
+}

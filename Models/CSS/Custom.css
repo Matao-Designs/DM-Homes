@@ -1,0 +1,29 @@
+.theBody{
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+#modelName  {
+    color: white;
+    padding: 20px;
+}
+
+.line{
+    height: 4px;
+    border-top: 1px solid white;
+    border-bottom: 1px solid white;
+    width: 60%;
+    margin: auto;
+    margin-bottom: 50px;
+}
+
+#details    {
+    color: white;
+    padding: 50px;
+}
+
+.close-buttons   {
+    margin-bottom: 100px;
+}

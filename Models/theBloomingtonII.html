@@ -1,0 +1,110 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+
+    <!--Meta Tags-->
+
+
+    <!--Style Sheets-->
+    <link href="../CSS/bootstrap.css" rel="stylesheet" />
+    <link href="../CSS/primary.css" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css?family=Noto+Serif:700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Crimson+Text" rel="stylesheet">
+    <link rel="stylesheet" href="../font-awesome-4.6.3/css/font-awesome.css">
+    <link href="../CSS/animate.css" rel="stylesheet"/>
+    <link href="CSS/Custom.css" rel="stylesheet" />
+
+
+    <title>DM Homes Inc.</title>
+
+
+</head>
+<body class="theBody" style="background-image: url('../Media/Images/Models/The_Bloomington_II/slide1-bg.png');">
+
+<div style="position: fixed; top: 5px; left: 5px;">
+    <a href="#" class="close-button"><span class="fa fa-arrow-circle-left fa-4x" style="color: white"></span> </a>
+</div>
+        <div class="container-fluid">
+            <div class="row text-center">
+                <div class="col-xs-12 col-md-8 col-md-push-2">
+
+                    <h2 id="modelName">
+                        The Bloomington II
+                    </h2>
+
+                    <div class="line"></div>
+
+
+                    <link href="http://www.mataodesigns.com/DM_Homes_Phase2/Scripts/PHP/InteractiveFloorPlanDev/index.php?controller=pjFront&action=pjActionLoadCss" type="text/css" rel="stylesheet" />
+                    <script type="text/javascript" src="http://www.mataodesigns.com/DM_Homes_Phase2/Scripts/PHP/InteractiveFloorPlanDev/index.php?controller=pjFront&action=pjActionLoad&floorplan_id=12"></script>
+
+
+
+
+
+
+                    <p id="details">
+                        <strong>Model: </strong>The Bloomington II || <strong>Sq. Ft. </strong>3,783
+                    </p>
+
+                    <a href="../Media/Images/Models/The_Bloomington_II/floor-planBig.png" class="btn btn-default close-buttons" target="_blank"><span class="fa fa-download"></span> Download Plan</a>
+                    &nbsp;
+                    <a href="getLink()" class="btn btn-default close-button close-buttons"><span class="fa fa-close"></span> Close</a>
+
+
+
+                </div>
+            </div>
+        </div>
+
+
+<!--Javascript-->
+<script src="../Scripts/jquery/jquery-1.9.1.js"></script>
+<script src="../Scripts/js/bootstrap.js"></script>
+<script src="../Scripts/jquery/classie.js"></script>
+<script src="../Scripts/jquery/jquery.easing.js"></script>
+<script type="text/javascript" src="../Scripts/jquery/retinajs/dist/retina.min.js"></script>
+<!--[if lt IE 9]>
+<script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+<script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+<![endif]-->
+
+<!--Contact Form Scripts-->
+<script src="../Scripts/jquery/contact_me.js"></script>
+<script src="../Scripts/jquery/jqBootstrapValidation.js"></script>
+
+
+<script>
+
+    $(function() {
+
+        var getUrlParameter = function getUrlParameter(sParam) {
+            var sPageURL = decodeURIComponent(window.location.search.substring(1)),
+                    sURLVariables = sPageURL.split('&'),
+                    sParameterName,
+                    i;
+
+            for (i = 0; i < sURLVariables.length; i++) {
+                sParameterName = sURLVariables[i].split('=');
+
+                if (sParameterName[0] === sParam) {
+                    return sParameterName[1] === undefined ? true : sParameterName[1];
+                }
+            }
+        };
+
+
+        var comingFrom = getUrlParameter('prev');
+        var theLink = $('.close-button').attr('href');
+        console.log(comingFrom);
+        console.log(theLink);
+
+        $('.close-button').attr('href','../'+ comingFrom +'.php');
+
+    });
+
+</script>
+
+</body>
+</html>
