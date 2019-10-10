@@ -6,7 +6,7 @@
                 <i class="fa fa-bars"></i> Menu
             </button>
             <a class="navbar-brand page-scroll" href="#page-top">
-                <img src="Media/Images/logo.png" data-rjs="3" class="img-responsive hidden-xs" alt="Matao Designs Logo" style="float: left">
+                <img src="Media/Images/logo3.png" data-rjs="3" class="img-responsive hidden-xs" alt="Matao Designs Logo" style="float: left">
                 <span class="visible-xs hidden-sm hidden-md hidden-lg" style="font-family: 'Noto Serif', serif;">DM Homes Inc.</span>
             </a>
         </div>
@@ -28,11 +28,11 @@
                         <!-- <li><a href="oaklandHunt.php?oaklandHunt">Oakland Hunt - <span style="color: red">SOLD OUT</span></a></li> -->
                         <li><a href="theVistas.php?Vistas">The Vistas of Rochester Hills</a></li>
                         <!-- <li><a href="autumnCreek.php?autumnCreek">Autumn Creek</a></li> -->
-                        <li><a href="theReserve.php?theReserve">The Reserve at Cass Lake</a></li>
+                        <!-- <li><a href="theReserve.php?theReserve">The Reserve at Cass Lake</a></li> -->
+                        <li><a  href="valencia.php?valencia">Valencia</a></li>
+                        <li><a  href="nottingham.php?nottingham">Nottingham Woods</a></li>
                         <li role="separator" class="divider"></li>
                         <li><span style="margin-left: 20px;"><b> Coming Soon</b></span></li>
-                        <li><a  href="nottingham.php?nottingham">Nottingham Woods</a></li>
-                        <li><a  href="valencia.php?valencia">Valencia</a></li>
                         <li><a href="prestonCorners.php?prestonCorners">Preston Corners</a></li>
 
                     </ul>
@@ -46,9 +46,9 @@
                             <!-- <li style="line-height: 45px"><a style="padding:15px; color: white; " href="oaklandHunt.php?oaklandHunt">Oakland Hunt - <span style="color: red">SOLD OUT</span></a></li> -->
                             <li style="line-height: 45px"><a style="padding:15px; color: white; " href="theVistas.php?Vistas">The Vistas of Rochester Hills</a></li>
                             <!-- <li style="line-height: 45px"><a style="padding:15px; color: white; " href="autumnCreek.php?autumnCreek">Autumn Creek</a></li> -->
-                            <li style="line-height: 45px"><a style="padding:15px; color: white; " href="theReserve.php?theReserve">The Reserve at Cass Lake</a></li>
-                    <li style="line-height: 45px"><a style="padding:15px; color: white; " href="nottingham.php?nottingham"><b style="color: white;"> Coming Soon: </b>Nottingham Woods</a></li>
-                    <li style="line-height: 45px"><a style="padding:15px; color: white; " href="valencia.php?valencia"><b style="color: white;"> Coming Soon: </b>Valencia</a></li>
+                            <!-- <li style="line-height: 45px"><a style="padding:15px; color: white; " href="theReserve.php?theReserve">The Reserve at Cass Lake</a></li> -->
+                            <li style="line-height: 45px"><a style="padding:15px; color: white; " href="valencia.php?valencia">Valencia</a></li>
+                            <li style="line-height: 45px"><a style="padding:15px; color: white; " href="nottingham.php?nottingham">Nottingham Woods</a></li>
                     <li style="line-height: 45px"><a style="padding:15px; color: white; " href="prestonCorners.php?prestonCorners"><b style="color: white;"> Coming Soon: </b>Preston Corners</a></li>
 
                     <hr>

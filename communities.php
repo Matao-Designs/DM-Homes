@@ -196,11 +196,11 @@
                 <div class="col-xs-12 col-md-6">
                     <!--Community 7-->
                     <div id="silverCreekListing" class="communityListingContainer">
-                        <h3>Silver Creek <span style="color: silver; font-size: .8em; font-style: italic">Coming in 2018</span></h3>
+                        <h3>Preston Corners <span style="color: silver; font-size: .8em; font-style: italic">Coming in 2020</span></h3>
                         <div class="row" style="height: 300px;">
                             <div class="col-xs-12 col-md-5" style="height: 100%;">
                                 <img src="Media/Images/largeLogo.png" class="img-responsive" />
-                                    <a href="silverLake.php" class="listingsButton btn btn-outline-light btn-lg">Learn More</a>
+                                    <a href="prestonCorners.php" class="listingsButton btn btn-outline-light btn-lg">Learn More</a>
                             </div>
                             <div class="hidden-xs col-md-7">
                                 <p>

@@ -34,12 +34,7 @@
     <link rel="preload" as="image" href="Media/Images/homeScreen/IMG_0629.jpg" media="(max-width: 1800px)">
     <link rel="preload" as="image" href="Media/Images/homeScreen/IMG_0782.jpg" media="(max-width: 1800px)">
 
-
     <title><?php printf(theTitle($thePage))?></title>
-
-    
-   
-
 
 </head>
 
@@ -55,7 +50,7 @@
 <!--Main Content-->
     <div class="container-fluid" id="mainContent">
       <!--Jumbotron-->
-       <div class="row hidden-xs hidden-sm visible-md visible-lg" style="background-color: #000;">
+       <div class="row hidden-xs hidden-sm visible-md visible-lg">
            <?php
                include'Scripts/homePageScroller.php';
            ?>
@@ -115,13 +110,13 @@
             <div class="overLay1">
                 <div class="communitiesText">
                     <img src="Media/Images/logo.png" style="float: left; padding-right: 40px; padding-bottom: 50px;" class="hidden-xs hidden-sm visible-md visible-lg"/> <h3>Communities</h3>
-                        <ul>
-                            <li>Great neighborhoods</li>
-                            <li>Numerous amenities</li>
-                            <li>Your choice of available lots</li>
-                            <li>Spec homes available</li>
-                        </ul>
-                        <a href="communities.php" style="margin-left: 100px; margin-top: 20px;" class="btn btn-lg btn-default btn-outline">Learn More</a>
+                    <ul>
+                        <li>Great neighborhoods</li>
+                        <li>Numerous amenities</li>
+                        <li>Your choice of available lots</li>
+                        <li>Spec homes available</li>
+                    </ul>
+                    <a href="communities.php" style="margin-left: 100px; margin-top: 20px;" class="btn btn-lg btn-default btn-outline">Learn More</a>
                 </div>
             </div>
         </section>
@@ -171,36 +166,59 @@
         </section>
 
 
+        <!-- Spec Homes Section -->
+        <section class="spec-homes">
+            <div class="container-fluid">
+                <div class="row text-center">
+                    <h1>Avaliable Spec Homes</h1>
+                    <div class="line"></div>
+                </div>    
+                <div class="row">
+                    <div class="col-sm-12 col-md-6">
+                        <img src="./Media/Images/homeScreen/IMG_0224.jpg" class="img-responsive" alt="Spec Homes">
+                    </div>
+                    <div class="col-sm-12 col-md-6">
+                    <div style="
+                          margin-top: 70px;
+                    ">
+                        <!-- Spec Homes CMS section here -->
+                        <link href="/Scripts/PHP/CMS/index.php?controller=pjFront&action=pjActionLoadCss" type="text/css" rel="stylesheet" />
+                        <script type="text/javascript" src="/Scripts/PHP/CMS/index.php?controller=pjFront&action=pjActionLoad&id=7&hide=1"></script>
+                        </div>
+                    </div>
+                </div>
+            </div>    
+        </section>
 
-        <!--Opening Hook-->
+
+        <!--Island Progression video-->
         <section id="openingHook">
             <div class="container-fluid">
                 <div class="row text-center">
                     <h1>Island/Kitchen Progression</h1>
-                        <div class="line"></div>
-                        <div class="row">
-                            <div class="col-xs-12 col-md-10 col-md-push-1">
-                                <div class="row" style="margin-top: 20px;">
-                                    <div class="col-xs-12 col-md-12 col-lg-6">
-                                       <!--Video-->
-                                        <iframe width="100%" height="315" src="https://www.youtube.com/embed/fsNJxuon29E?rel=0&amp;controls=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
-                                    </div>
-                                    <div class="col-xs-12 col-md-12 col-lg-6">
-                                        <p style="text-align: left; margin-top: 20px;">
-                                            Watch as we built a custom island as the masterpiece and focal point of a
-                                            beautiful kitchen. This custom island features dark walnut stained
-                                            finishes and polished metal trim in between. With the other cabinets
-                                            finished in white, the island pops out of the room and becomes the
-                                            common meeting ground for anyone in the kitchen.
-                                        </p>
-                                    </div>
+                    <div class="line"></div>
+                    <div class="row">
+                        <div class="col-xs-12 col-md-10 col-md-push-1">
+                            <div class="row" style="margin-top: 20px;">
+                                <div class="col-xs-12 col-md-12 col-lg-6">
+                                    <!--Video-->
+                                    <iframe width="100%" height="315" src="https://www.youtube.com/embed/fsNJxuon29E?rel=0&amp;controls=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
+                                </div>
+                                <div class="col-xs-12 col-md-12 col-lg-6">
+                                    <p style="text-align: left; margin-top: 20px;">
+                                        Watch as we built a custom island as the masterpiece and focal point of a
+                                        beautiful kitchen. This custom island features dark walnut stained
+                                        finishes and polished metal trim in between. With the other cabinets
+                                        finished in white, the island pops out of the room and becomes the
+                                        common meeting ground for anyone in the kitchen.
+                                    </p>
                                 </div>
                             </div>
                         </div>
+                    </div>
                 </div>
             </div>
         </section>
-
 
 
 
@@ -211,25 +229,25 @@
                 <div class="row text-center" style="background: #e3e3e3">
                     <div class="col-xs-12 col-sm-12 col-md-10 col-md-push-1 col-lg-10 col-lg-push-1">
                         <h1 id="meetTheFam-header">Meet the Family</h1>
-                            <hr class="colored">
-                            <div class="row">
-                                <div class="col-xs-12 col-sm-6 col-md-6 col-lg-3">
-                                    <img src="Media/Images/dominic_sr.png" class="img-responsive img-circle img-centered meetPic" alt="Dominic Sr."/>
-                                    <p>Dominic Mattina Sr. emigrated from Italy in 1965 with his wife Rosalia Mattina. In pursuit of the American dream, he worked diligently as a skilled finish carpenter and progressed to build his first residential home in 1975. Dominic and Rosalia have three children, Dominic, Anthony and Francesca, who all work in the family business.</p>
-                                </div>
-                                <div class="col-xs-12 col-sm-6 col-md-6 col-lg-3">
-                                    <img src="Media/Images/dom.jpg" class="img-responsive img-circle img-centered meetPic" alt="Dominic"/>
-                                    <p>Dominic has been around the construction industry for over 30 years. He started by going to work with his father on weekends and also working through many summers of his youth. Working with his dad taught him not only great skills as a finish carpenter, but the importance of respecting clients and their needs. Dominic received a degree in Construction Engineering from Lawrence Technological University in 1990 and shortly after became a partner with his father.</p>
-                                </div>
-                                <div class="col-xs-12 col-sm-6 col-md-6 col-lg-3">
-                                    <img src="Media/Images/nino.jpg" class="img-responsive img-circle img-centered meetPic" alt="Nino"/>
-                                    <p>Like his brother Dominic, Anthony Mattina grew up around the building industry, working with his father as a finish carpenter. He received a degree in Finance from Oakland University in 1991 before joining his dad and brother at DM Homes Inc. Anthony has a creative and modern approach to home design. He pays close attention to new products and trends and implements them in model homes to make cutting-edge design accessible to his clients.</p>
-                                </div>
-                                <div class="col-xs-12 col-sm-6 col-md-6 col-lg-3">
-                                    <img src="Media/Images/francesca.png" class="img-responsive img-circle img-centered meetPic" alt="Francesca"/>
-                                    <p>Francesca received an Accounting degree from Oakland University in 1995 and now manages the main office. Like her father and two brothers, she takes great pride in being a part of a family business that fulfills people's dreams of owning a new home.</p>
-                                </div>
+                        <hr class="colored">
+                        <div class="row">
+                            <div class="col-xs-12 col-sm-6 col-md-6 col-lg-3">
+                                <img src="Media/Images/dominic_sr.png" class="img-responsive img-circle img-centered meetPic" alt="Dominic Sr."/>
+                                <p>Dominic Mattina Sr. emigrated from Italy in 1965 with his wife Rosalia Mattina. In pursuit of the American dream, he worked diligently as a skilled finish carpenter and progressed to build his first residential home in 1975. Dominic and Rosalia have three children, Dominic, Anthony and Francesca, who all work in the family business.</p>
                             </div>
+                            <div class="col-xs-12 col-sm-6 col-md-6 col-lg-3">
+                                <img src="Media/Images/dom.jpg" class="img-responsive img-circle img-centered meetPic" alt="Dominic"/>
+                                <p>Dominic has been around the construction industry for over 30 years. He started by going to work with his father on weekends and also working through many summers of his youth. Working with his dad taught him not only great skills as a finish carpenter, but the importance of respecting clients and their needs. Dominic received a degree in Construction Engineering from Lawrence Technological University in 1990 and shortly after became a partner with his father.</p>
+                            </div>
+                            <div class="col-xs-12 col-sm-6 col-md-6 col-lg-3">
+                                <img src="Media/Images/nino.jpg" class="img-responsive img-circle img-centered meetPic" alt="Nino"/>
+                                <p>Like his brother Dominic, Anthony Mattina grew up around the building industry, working with his father as a finish carpenter. He received a degree in Finance from Oakland University in 1991 before joining his dad and brother at DM Homes Inc. Anthony has a creative and modern approach to home design. He pays close attention to new products and trends and implements them in model homes to make cutting-edge design accessible to his clients.</p>
+                            </div>
+                            <div class="col-xs-12 col-sm-6 col-md-6 col-lg-3">
+                                <img src="Media/Images/francesca.png" class="img-responsive img-circle img-centered meetPic" alt="Francesca"/>
+                                <p>Francesca received an Accounting degree from Oakland University in 1995 and now manages the main office. Like her father and two brothers, she takes great pride in being a part of a family business that fulfills people's dreams of owning a new home.</p>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>

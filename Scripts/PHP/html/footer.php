@@ -11,7 +11,7 @@
 <br><br>
                    <div class="row text-center">
                     <h4><i class="fa fa-phone"></i> Call</h4>
-                    <p>586.336.6800</p>
+                    <a href="tel:586-336-6800">586.336.6800</a>
                 </div>
 <!--                <div class="row text-center">-->
 <!--                    <h4><i class="fa fa-fax"></i> Fax</h4>-->
@@ -21,6 +21,14 @@
                     <h4><i class="fa fa-envelope-o"></i> Email</h4>
                     <p><a href="mailto:customerservice@dmhomesinc.com">customerservice@dmhomesinc.com</a></p>
                 </div>
+
+                <div class="row text-center">
+                    <a href="https://www.facebook.com/DmHomesinc/" target="_blank"><h4><i class="fa fa-facebook fa-2x"></i></h4></a>
+                    <a href="https://www.instagram.com/dm_homes/?hl=en" target="_blank"><h4><i class="fa fa-instagram fa-2x"></i></h4></a>
+                </div>
+
+
+
 <!--                <div class="row text-center">-->
 <!--                    <h4><i class="fa fa-map-marker"></i> Location</h4>-->
 <!--                    <p>66691 Van Dyke Ave.<br>Washington Township, Michigan 48095</p>-->
@@ -45,17 +53,21 @@
                 <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
                     <span style="margin-top: 100px;" class="hidden-xs hidden-sm visible-md visible-lg"></span>
                     <br><br>
-                    <div class="row text-center">
+                    <div class="row text-center" style="margin-bottom: 2rem;">
                         <h4><i class="fa fa-phone"></i> Call</h4>
-                        <p>586.336.6800</p>
+                        <a href="tel:586-336-6800">586.336.6800</a>
                     </div>
 <!--                    <div class="row text-center">-->
 <!--                        <h4><i class="fa fa-fax"></i> Fax</h4>-->
 <!--                        <p>586.336.6817</p>-->
 <!--                    </div>-->
-                    <div class="row text-center">
+                    <div class="row text-center" style="margin-bottom: 2rem;">
                         <h4><i class="fa fa-envelope-o"></i> Email</h4>
                         <p><a href="mailto:customerservice@dmhomesinc.com">customerservice@dmhomesinc.com</a></p>
+                    </div>
+                    <div class="row text-center" style="margin-bottom: 2rem;">
+                    <a href="https://www.facebook.com/DmHomesinc/" target="_blank" style="padding-right: 4rem;"><i class="fa fa-facebook fa-2x"></i></a>
+                    <a href="https://www.instagram.com/dm_homes/?hl=en" target="_blank"><i class="fa fa-instagram fa-2x"></i></a>
                     </div>
 <!--                    <div class="row text-center">-->
 <!--                        <h4><i class="fa fa-map-marker"></i> Location</h4>-->
