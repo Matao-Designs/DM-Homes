@@ -129,7 +129,7 @@
 
                     <!--Community 4-->
                     <div id="casslakeListing" class="communityListingContainer">
-                        <h3>The Vistas of Rochester Hills</h3>
+                        <h3>The Vistas of Rochester Hills <span style="color: silver; font-size: .8em; font-style: italic">SOLD OUT</span></h3>
                         <div class="row" style="height: 300px;">
                             <div class="col-xs-12 col-md-5" style="height: 100%;">
                                 <img src="Media/Images/Vistas%20Logo,%20Burgundy_Header.png" class="img-responsive" />
@@ -150,7 +150,7 @@
                 <div class="col-xs-12 col-md-6">
                     <!--Community 5-->
                     <div id="nottinghamListing" class="communityListingContainer">
-                        <h3>Nottingham Woods <span style="color: silver; font-size: .8em; font-style: italic">Coming Fall of 2017</span></h3>
+                        <h3>Nottingham Woods</h3>
                         <div class="row" style="height: 300px;">
                             <div class="col-xs-12 col-md-5" style="height: 100%;">
                                 <img src="Media/Images/largeLogo.png" class="img-responsive" />
@@ -173,7 +173,7 @@
                     <div class="col-xs-12 col-md-6">
                    <!--Community 6-->
                     <div id="valenciaListing" class="communityListingContainer">
-                        <h3>Valencia <span style="color: silver; font-size: .8em; font-style: italic">Coming Fall of 2017</span></h3>
+                        <h3>Valencia</h3>
                         <div class="row" style="height: 300px;">
                             <div class="col-xs-12 col-md-5" style="height: 100%;">
                                 <img src="Media/Images/largeLogo.png" class="img-responsive" />
@@ -196,7 +196,7 @@
                 <div class="col-xs-12 col-md-6">
                     <!--Community 7-->
                     <div id="silverCreekListing" class="communityListingContainer">
-                        <h3>Preston Corners <span style="color: silver; font-size: .8em; font-style: italic">Coming in 2020</span></h3>
+                        <h3>Preston Corners <span style="color: silver; font-size: .8em; font-style: italic">Coming in 2021</span></h3>
                         <div class="row" style="height: 300px;">
                             <div class="col-xs-12 col-md-5" style="height: 100%;">
                                 <img src="Media/Images/largeLogo.png" class="img-responsive" />
@@ -214,6 +214,26 @@
                         </div>
                     </div>
                 </div>
+
+                <div class="col-xs-12 col-md-6">
+                    <!--Community 8-->
+                    <div id="silverCreekListing" class="communityListingContainer">
+                        <h3>Saddlebrook Orchards <span style="color: silver; font-size: .8em; font-style: italic">Coming Soon</span></h3>
+                        <div class="row" style="height: 300px;">
+                            <div class="col-xs-12 col-md-5" style="height: 100%;">
+                                <img src="Media/Images/largeLogo.png" class="img-responsive" />
+                                    <a href="saddlebrookOrchards.php" class="listingsButton btn btn-outline-light btn-lg">Learn More</a>
+                            </div>
+                            <div class="hidden-xs col-md-7">
+                                <p>
+                                    Located on West Auburn Road between Crooks and Livernois Road, this ten lot community offers large lots,
+                                    multiple common spaces and close to shopping and restaurants.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
             </div>
         </div>
         </section>
