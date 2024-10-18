@@ -46,7 +46,7 @@
         <h3 style="color: white; text-align: right; margin-right: 50px; text-shadow: 2px 2px 4px #333">Explore our work and get inspiration for your new home.</h3>
     </section>
 
-    <div class="row text-center" style="margin-top: 30px;">
+    <!--<div class="row text-center" style="margin-top: 30px;">
         <div class="col-xs-12 col-md-10 col-md-push-1">
             <ul style="list-style-type: none;">
                 <li style="display: inline;"><a href="gallery.php" class="btn btn-sm btn-default btn-outline-dark">All</a></li>
@@ -58,13 +58,12 @@
                 <li style="display: inline;"><a href="customGalleries.php" class="btn btn-sm btn-default btn-outline-dark">Custom Details / Woodwork</a></li>
             </ul>
         </div>
-    </div>
+    </div>-->
 
 
     <div class="row" style="margin-top: 30px">
-        <div class="col-xs-12 col-sm-12 col-md-10 col-md-push-1">
-            <link href="http://dmhomesinc.com/Scripts/PHP/Gallery/index.php?controller=pjFront&action=pjActionLoadCss&id=1" type="text/css" rel="stylesheet" />
-            <script type="text/javascript" src="/Scripts/PHP/Gallery/index.php?controller=pjFront&action=pjActionLoad&id=1"></script>
+        <div class="col-xs-12 text-center">
+            <iframe src='https://dmhomesinc.com/Scripts/PHP/Gallery/index.php?' style='width:97vw; height: 1500px;'></iframe>
         </div>
     </div>
 

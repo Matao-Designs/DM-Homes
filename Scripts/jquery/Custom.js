@@ -104,6 +104,7 @@ switch(pathname)
 
     case "/valencia.php":
     case "/valencia2.php":
+    case "/saddlebrook.php":
         $("#owlCarousel").owlCarousel({
             autoPlay : 3000,
             items: 6

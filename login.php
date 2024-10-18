@@ -58,9 +58,9 @@ include"Scripts/PHP/theTitle.php";
     <div class="row text-center">
         <div class="col-xs-12 col-md-4"></div>
         <div class="col-xs-12 col-md-4">
-            <link href="http://dmhomesinc.com/Scripts/PHP/MemberLoginDev/index.php?controller=pjFront&action=pjActionLoadCss" type="text/css" rel="stylesheet" />
-            <script type="text/javascript" src="http://dmhomesinc.com/Scripts/PHP/MemberLoginDev/index.php?controller=pjFront&action=pjActionLoginJs"></script>
-            <script type="text/javascript" src="/Scripts/PHP/MemberLoginDev/index.php?controller=pjFront&action=pjActionLogin"></script>
+            <link href="https://dmhomesinc.com/Scripts/PHP/Login/index.php?controller=pjFront&action=pjActionLoadCss" type="text/css" rel="stylesheet" />
+            <script type="text/javascript" src="https://dmhomesinc.com/Scripts/PHP/Login/index.php?controller=pjFront&action=pjActionLoginJs"></script>
+            <script type="text/javascript" src="https://dmhomesinc.com/Scripts/PHP/Login/index.php?controller=pjFront&action=pjActionLogin"></script>
         </div>
             <div class="col-xs-12 col-md-4"></div>
     </div>

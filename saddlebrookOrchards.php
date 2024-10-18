@@ -60,7 +60,7 @@ include"Scripts/PHP/theTitle.php";
        <br>
         <div class="line"></div>
         <div class="row">
-            <h1 style="text-align: center; color: white">Coming Soon</h1>
+            <h1 style="text-align: center">Coming Soon</h1>
         </div>
     </section>
 
@@ -71,16 +71,16 @@ include"Scripts/PHP/theTitle.php";
                 <div class="line2"></div>
                 <br><br>
                 <div class="row">
-                    <div class="col-xs-12 col-md-6" style="padding: 0 8rem;">
-                        <img src="Media/Images/largeLogoBlack.png" class="img-responsive" style="width: 50%; margin: auto"/>
-                        <br>
-                        <p class="text-left">
-                           Located on West Auburn Road between Crooks and Livernois Road, this ten lot community offers large lots,
-                           multiple common spaces and close to shopping and restaurants.
-                        </p>
-                    </div>
-                    <div class="col-xs-12 col-md-6 text-center">
-                        <img src="Media\Images\SaddlebrookOrchards/sitemap.jpg" class="img-responsive" style="margin: auto"/>
+                    <div class="col-xs-12 col-md-10 col-md-push-1">
+                        <div class="col-md-5">
+                            <img src="Media/Images/largeLogoBlack.png" class="img-responsive" style="width: 50%; margin: auto"/>
+                            <br>
+                            <link href="/Scripts/PHP/CMS/index.php?controller=pjFront&action=pjActionLoadCss" type="text/css" rel="stylesheet" />
+                            <script type="text/javascript" src="/Scripts/PHP/CMS/index.php?controller=pjFront&action=pjActionLoad&id=4&hide=1"></script>
+                        </div>
+                        <div class="col-md-5">
+                            <img src="Media\Images\SaddlebrookOrchards/sitemap.jpg" class="img-responsive"/>
+                        </div>
                     </div>
                 </div>
             </div>

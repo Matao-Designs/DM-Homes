@@ -1,16 +1,17 @@
 <?php
     include '../Scripts/PHP/interactiveFloorPlanCode.php';
+    $modelName = "The Claire";
+    $sqFt = "2,653";
+    $folderName = "The_Claire";
 ?>
-
 <!DOCTYPE html>
 <html>
 <head>
     <!--Meta Tags-->
     <?php
-       include"../Scripts/PHP/metaTags.php";
+        include"../Scripts/PHP/metaTags.php";
         printf(metaDescription($thePage));
     ?>
-
     <!--Style Sheets-->
     <link href="../CSS/bootstrap.css" rel="stylesheet" />
     <link href="../CSS/primary.css" rel="stylesheet" />
@@ -30,7 +31,6 @@
             left: 50%;
             margin-left: -233px;
         }
-
         .closeLarge {
             background-color: rgba(0,0,0,0.8);
             color: white;
@@ -39,7 +39,6 @@
             cursor: pointer;
 
             }
-
         .theBody {
             background: no-repeat center center fixed;
             -webkit-background-size: cover;
@@ -47,19 +46,12 @@
             -o-background-size: cover;
             background-size: cover;
         }
-
-        .owl-carousel .owl-stage {
-            display: flex;
-            align-items: center;
-        }
-
         .intFloorPlan img {
             border-radius: 10px;
         }
-
     </style>
 </head>
-<body class="theBody" style="background-image: url('../Media/Images/Models/The_Glenwood/bg.png');">
+<body class="theBody" style="background-image: url('../Media/Images/Models/The_Claire/bg.png');">
 
 <?php
     //print floorplan on page for jquery
@@ -68,11 +60,10 @@
     echo "<div class='hidden' id='thumbs'>";
         foreach ($thumbnails as $x)
         {
-            echo '<img class="thumb" src="../Scripts/PHP/InteractiveFloorPlanDev/app/web/upload/small/'.$x.'"/>';
+        echo '<img class="thumb" src="../Scripts/PHP/InteractiveFloorPlanDev/app/web/upload/small/'.$x.'"/>';
         }
     echo"</div>";
-
-//print thumbs
+    //print thumbs
     echo "<div class='hidden' id='large'>";
         foreach ($largePics as $x)
         {
@@ -82,28 +73,34 @@
 ?>
 
 <div style="position: fixed; top: 50px; left: 50px; z-index: 99999">
-    <a href="#" class="close-button"><span class="fa fa-arrow-circle-left fa-4x" style="color: white"></span></a>
+    <a href="#" class="close-button"><span class="fa fa-arrow-circle-left fa-4x" style="color: white"></span> </a>
 </div>
 <div class="container-fluid">
     <div class="row text-center">
         <div class="col-xs-12 col-md-8 col-md-push-2">
-            <h2 id="modelName">The Glenwood</h2>
-                <p id="details">
-                    <strong>Model: </strong>The Glenwood || <strong>Sq. Ft. </strong>2,214
-                </p>
+            <h2 id="modelName">
+               <?php echo $modelName ?>
+            </h2>
+            <p id="details">
+                <strong>Model: </strong><?php echo $modelName ?> || <strong>Sq. Ft. </strong><?php echo $sqFt ?>
+            </p>
 
-                <div class="row elevationImage text-center" style="margin-bottom: 20px;">
-                    <div class="col-sm-12 col-md-6 col-md-push-3">
-                        <img src="../Media/Images/Models/The_Glenwood.jpg" class="img-responsive" style="margin: auto; text-align: center;"/>
-                    </div>
+            <div class="row elevationImage text-center" style="margin-bottom: 20px;">
+                <div class="col-sm-12 col-md-6 col-md-push-3">
+                    <img src="../Media/Images/Models/The_Claire.png" class="img-responsive" style="margin: auto; text-align: center;"/>
                 </div>
+            </div>
 
-                    <div class="line"></div>
-                    <?php
-                        include "../Scripts/modelContainers.php";
-                    ?>
-            <a href="../Media/Images/Models/revisedBrochures/Glenwood.pdf" class="btn btn-default close-buttons" target="_blank"><span class="fa fa-download"></span> Download Plan</a>
+            <div class="line"></div>
+            <?php
+                include "../Scripts/modelContainers.php";
+            ?>
+
+            <a href="../Media/Images/Models/revisedBrochures/theClaire.pdf" class="btn btn-default close-buttons" target="_blank"><span class="fa fa-download"></span> Download Plan</a>
             <a href="getLink()" class="btn btn-default close-button close-buttons"><span class="fa fa-close"></span> Close</a>
+
+
+
         </div>
     </div>
 </div>
@@ -127,9 +124,13 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.20.1/TweenMax.min.js"></script>
 <!--Owl Carousel-->
 <script src="../Scripts/jquery/owl.carousel/owl-carousel/owl.carousel.js"></script>
+
 <script src="../Scripts/intFloorPpan.js"></script>
+
 <script>
+
     $(function() {
+
         var getUrlParameter = function getUrlParameter(sParam) {
             var sPageURL = decodeURIComponent(window.location.search.substring(1)),
                     sURLVariables = sPageURL.split('&'),
@@ -144,10 +145,17 @@
                 }
             }
         };
+
+
         var comingFrom = getUrlParameter('prev');
         var theLink = $('.close-button').attr('href');
+        console.log(comingFrom);
+        console.log(theLink);
+
         $('.close-button').attr('href','../'+ comingFrom +'.php');
+
     });
+
 </script>
 
 </body>

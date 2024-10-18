@@ -1,18 +1,19 @@
 <?php
 //Page Includes
 $thePage = basename($_SERVER['PHP_SELF']);
-include"Scripts/PHP/customFunctions.php";
-include"Scripts/PHP/theTitle.php";
+include "Scripts/PHP/customFunctions.php";
+include "Scripts/PHP/theTitle.php";
 ?>
 
 <!DOCTYPE html>
 <html>
+
 <head>
 
     <!--Meta Tags-->
 
     <?php
-    include"Scripts/PHP/metaTags.php";
+    include "Scripts/PHP/metaTags.php";
     printf(metaDescription($thePage));
     ?>
 
@@ -25,38 +26,39 @@ include"Scripts/PHP/theTitle.php";
     <link rel="stylesheet" href="font-awesome-4.6.3/css/font-awesome.css">
     <link href="Scripts/jquery/owl.carousel/owl-carousel/owl.carousel.css" rel="stylesheet">
     <link href="Scripts/jquery/owl.carousel/owl-carousel/owl.theme.css" rel="stylesheet">
-    <link href="CSS/animate.css" rel="stylesheet"/>
+    <link href="CSS/animate.css" rel="stylesheet" />
     <link href="CSS/Custom.css" rel="stylesheet" />
 
 
-    <title><?php printf(theTitle($thePage))?></title>
+    <title><?php printf(theTitle($thePage)) ?></title>
 
 
 </head>
+
 <body id="page-top">
 
 
-<!--Header-->
-<div class="container-fluid">
-    <div class="row" style="background: #333333">
-        <?php include"Scripts/PHP/html/header2.php"; ?>
-    </div>
-</div>
-
-
-<!--Main Content-->
-<div class="container-fluid" id="mainContent">
-    <div class="filler"></div>
-
-    <div class="row text-center" style="margin-top: 200px;">
-        <!--<img src="Media/Images/oakland%20hunt%20logo%20_200w.png" alt="Autumn Creek logo" class="img-responsive" style="margin: auto; width: 100px"/>-->
-
-        <h2>Preston Corners</h2>
-        <div class="line2"></div>
-<br><br>
+    <!--Header-->
+    <div class="container-fluid">
+        <div class="row" style="background: #333333">
+            <?php include "Scripts/PHP/html/header2.php"; ?>
+        </div>
     </div>
 
-    <!--<section id="autumnCreekMap" style="background-image: url('Media/Images/oaklandHunt-bg.png'); min-height: 420px; padding-top: 100px; padding-bottom: 100px">
+
+    <!--Main Content-->
+    <div class="container-fluid" id="mainContent">
+        <div class="filler"></div>
+
+        <div class="row text-center" style="margin-top: 200px;">
+            <!--<img src="Media/Images/oakland%20hunt%20logo%20_200w.png" alt="Autumn Creek logo" class="img-responsive" style="margin: auto; width: 100px"/>-->
+
+            <h2>Preston Corners</h2>
+            <div class="line2"></div>
+            <br><br>
+        </div>
+
+        <!--<section id="autumnCreekMap" style="background-image: url('Media/Images/oaklandHunt-bg.png'); min-height: 420px; padding-top: 100px; padding-bottom: 100px">
         <div class="col-xs-12 col-sm-12 col-md-8 text-center">
 
             <h3 style="color: white; font-family: 'Crimson Text', serif"><span class="fa fa-map-marker fa-3x" style="color: orangered"></span><br>Located at:</h3>
@@ -68,8 +70,8 @@ include"Scripts/PHP/theTitle.php";
         </div>
 
         <div class="hidden-xs hidden-sm col-md-4 col-lg-4">-->
-            <!--Map-->
-            <!--Google Map
+        <!--Map-->
+        <!--Google Map
             <script src="Scripts/jquery/googleMapOaklandHunt.js"></script>
 
                 <div class="googleMapAC">
@@ -80,7 +82,7 @@ include"Scripts/PHP/theTitle.php";
                 </div>
         </div>
     </section>-->
-    <!--Mobile Map
+        <!--Mobile Map
     <div class="container-fluid">
     <div class="row col-xs-12 col-sm-12 hidden-md hidden-lg">
         <script src="Scripts/jquery/googleMapOaklandHunt.js"></script>
@@ -92,52 +94,52 @@ include"Scripts/PHP/theTitle.php";
     </div>
     </div>-->
 
-    <section id="silverCreek" style="background-image: url('Media/Images/silverCreek-bg.png'); padding-top: 200px; padding-bottom: 200px;">
-        <img src="Media/Images/largeLogo.png" class="img-responsive" style="margin: auto; width: 200px; height: auto"/>
-       <br>
-        <div class="line"></div>
+        <section id="silverCreek" style="background-image: url('Media/Images/silverCreek-bg.png'); padding-top: 200px; padding-bottom: 200px;">
+            <img src="Media/Images/largeLogo.png" class="img-responsive" style="margin: auto; width: 200px; height: auto" />
+            <br>
+            <div class="line"></div>
 
-        <div class="row">
-            <h1 style="text-align: center">Coming in 2020</h1>
-        </div>
+            <div class="row">
+                <h1 style="text-align: center">Coming in 2024</h1>
+            </div>
 
-    </section>
+        </section>
 
 
 
-    <section id="aboutAC">
-        <div class="container-fluid">
-            <div class="row text-center">
-                <h2>About</h2>
-                <div class="line2"></div>
-                <br><br>
+        <section id="aboutAC">
+            <div class="container-fluid">
+                <div class="row text-center">
+                    <h2>About</h2>
+                    <div class="line2"></div>
+                    <br><br>
 
-                <div class="row">
-                    <div class="col-xs-12 col-md-10 col-md-push-1">
+                    <div class="row">
+                        <div class="col-xs-12 col-md-10 col-md-push-1">
 
-                        <div class="col-md-5">
-                            <img src="Media/Images/largeLogoBlack.png" class="img-responsive" style="width: 50%; margin: auto"/>
-<br>
+                            <div class="col-md-5">
+                                <img src="Media/Images/largeLogoBlack.png" class="img-responsive" style="width: 50%; margin: auto" />
+                                <br>
 
-                            <link href="/Scripts/PHP/CMS/index.php?controller=pjFront&action=pjActionLoadCss" type="text/css" rel="stylesheet" />
-                            <script type="text/javascript" src="/Scripts/PHP/CMS/index.php?controller=pjFront&action=pjActionLoad&id=4&hide=1"></script>
+                                <link href="http://dmhomesinc.com/Scripts/PHP/CMS/index.php?controller=pjFront&action=pjActionLoadCss" type="text/css" rel="stylesheet" />
+                                <script type="text/javascript" src="http://dmhomesinc.com/Scripts/PHP/CMS/index.php?controller=pjFront&action=pjActionLoad&id=11"></script>
+
+                            </div>
+
+                            <div class="col-md-5">
+                                <img src="Media\Images\SilverCreekLotPlan.jpg" class="ing-responsive" />
+                            </div>
 
                         </div>
-
-                        <div class="col-md-5">
-                            <img src="Media\Images\SilverCreekLotPlan.jpg" class="ing-responsive"/>
-                        </div>
-
                     </div>
+
+
+
                 </div>
 
+        </section>
 
-
-        </div>
-
-    </section>
-
-  <!--  <section id="featuredModels">
+        <!--  <section id="featuredModels">
         <div class="container-fluid">
             <div class="row">
                 <div class="cols-xs-12 col-xs-12 col-md-10 col-md-push-1">
@@ -161,7 +163,7 @@ include"Scripts/PHP/theTitle.php";
     </section>-->
 
 
-    <!--<section id="communityMap" style="margin-left: -15px; margin-right: -15px;">
+        <!--<section id="communityMap" style="margin-left: -15px; margin-right: -15px;">
         <div class="container-fluid" style="padding-left: 0px; padding-right: 0px;">
             <div class="col-xs-12 col-md-6 autumnCreekMap text-center" style="background-image: url('Media/Images/oaklandHuntMap-bg.png'); height: 540px;">
 
@@ -233,92 +235,90 @@ include"Scripts/PHP/theTitle.php";
 
 
 
-    <!--End Main Content-->
-</div>
+        <!--End Main Content-->
+    </div>
 
 
 
 
-<!--Modal-->
-<div class="modal fade" id="Modal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-    <div class="modal-dialog" role="document">
-        <div class="modal-content">
-            <div class="modal-header">
-                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                    <span aria-hidden="true">&times;</span>
-                </button>
-                <h4 class="modal-title" id="myModalLabel">Modal Header</h4>
-            </div>
-            <div class="modal-body">
-                <p>Modal Body</p>
-            </div>
-            <div class="modal-footer">
-                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+    <!--Modal-->
+    <div class="modal fade" id="Modal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                    <h4 class="modal-title" id="myModalLabel">Modal Header</h4>
+                </div>
+                <div class="modal-body">
+                    <p>Modal Body</p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                </div>
             </div>
         </div>
     </div>
-</div>
 
-<!--Footer-->
-<div class="container-fluid" style="padding-left: 0px; padding-right: 0px;">
-    <?php include"Scripts/PHP/html/footer.php"; ?>
-</div>
+    <!--Footer-->
+    <div class="container-fluid" style="padding-left: 0px; padding-right: 0px;">
+        <?php include "Scripts/PHP/html/footer.php"; ?>
+    </div>
 
 
-<!--Model Modals-->
+    <!--Model Modals-->
 
-<?php include"Scripts/PHP/ModelModals.php"?>
-
+    <?php include "Scripts/PHP/ModelModals.php" ?>
 
 
 
 
-<!--Testimonials Modals-->
-<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-    <div class="modal-dialog" role="document">
-        <div class="modal-content">
-            <div class="modal-header">
-                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                    <span aria-hidden="true">&times;</span>
-                </button>
-                <h4 class="modal-title">Oakland Hunt Subdivision Map</h4>
-            </div>
-            <div class="modal-body">
-                <img src="Media/Images/oaklandHuntMap.png" class="img-responsive" alt="autumn creek map"/>
 
-            </div>
-            <div class="modal-footer">
-                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-            </div>
-        </div><!-- /.modal-content -->
-    </div><!-- /.modal-dialog -->
-</div><!-- /.modal -->
+    <!--Testimonials Modals-->
+    <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                    <h4 class="modal-title">Oakland Hunt Subdivision Map</h4>
+                </div>
+                <div class="modal-body">
+                    <img src="Media/Images/oaklandHuntMap.png" class="img-responsive" alt="autumn creek map" />
+
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                </div>
+            </div><!-- /.modal-content -->
+        </div><!-- /.modal-dialog -->
+    </div><!-- /.modal -->
 
 
-<!--Javascript-->
-<script src="Scripts/jquery/jquery-1.9.1.js"></script>
-<script src="Scripts/js/bootstrap.js"></script>
-<script src="Scripts/jquery/classie.js"></script>
-<script src="Scripts/jquery/jquery.easing.js"></script>
-<script type="text/javascript" src="Scripts/jquery/retinajs/dist/retina.min.js"></script>
-<!--[if lt IE 9]>
+    <!--Javascript-->
+    <script src="Scripts/jquery/jquery-1.9.1.js"></script>
+    <script src="Scripts/js/bootstrap.js"></script>
+    <script src="Scripts/jquery/classie.js"></script>
+    <script src="Scripts/jquery/jquery.easing.js"></script>
+    <script type="text/javascript" src="Scripts/jquery/retinajs/dist/retina.min.js"></script>
+    <!--[if lt IE 9]>
 <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
 <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
 <![endif]-->
 
-<!--Contact Form Scripts-->
-<script src="js/contact_me.js"></script>
-<script src="js/jqBootstrapValidation.js"></script>
+    <!--Contact Form Scripts-->
+    <script src="js/contact_me.js"></script>
+    <script src="js/jqBootstrapValidation.js"></script>
 
 
-<script src="Scripts/jquery/owl.carousel/owl-carousel/owl.carousel.js"></script>
+    <script src="Scripts/jquery/owl.carousel/owl-carousel/owl.carousel.js"></script>
 
-<script src="Scripts/jquery/Custom.js"></script>
+    <script src="Scripts/jquery/Custom.js"></script>
 
 
 
 </body>
+
 </html>
-
-
-

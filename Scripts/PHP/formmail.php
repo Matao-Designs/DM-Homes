@@ -6,7 +6,7 @@ $robots = $_POST["robots"];
 if($robots == "10") {
     // $mail_to and $mail_from must be set.
 
-    $mail_to = 'customerservice@dmhomesinc.com'; // Who is the E-Mail going to?
+    $mail_to = 'francesca@dmhomesinc.com'; // Who is the E-Mail going to?
     //$mail_to = 'matt@mataodesigns.com'; // Who is the E-Mail going to?
 
     $mail_from = 'www.dmhomesinc.com'; // Where does the E-Mail appear to be from?
@@ -75,4 +75,3 @@ if($robots == "10") {
         header("Location: {$redirect}");
     endif;
 }
- ?>

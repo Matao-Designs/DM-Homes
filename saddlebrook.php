@@ -28,6 +28,7 @@ include "Scripts/PHP/theTitle.php";
     <link href="Scripts/jquery/owl.carousel/owl-carousel/owl.theme.css" rel="stylesheet">
     <link href="CSS/animate.css" rel="stylesheet" />
     <link href="CSS/Custom.css" rel="stylesheet" />
+    <link href="CSS/specHomes.css" rel="stylesheet" />
 
 
     <title><?php printf(theTitle($thePage)) ?></title>
@@ -51,20 +52,19 @@ include "Scripts/PHP/theTitle.php";
         <div class="filler"></div>
 
         <div class="row text-center" style="margin-top: 200px;">
-            <img src="Media/Images/Nottingham/logo.png" alt="Valencia logo" class="img-responsive" style="margin: auto; width: 100px" />
+            <img src="Media/Images/Saddlebrook/saddlebrookMapLogo.png" alt="Saddlebrook logo" class="img-responsive" style="margin: auto; width: 100px" />
 
-            <h2>Nottingham Woods</h2>
+            <h2>Saddlebrook</h2>
             <div class="line2"></div>
-            <span style="color: red; font-weight: 600; font-size: 3rem;">SOLD OUT</span>
             <br><br>
         </div>
 
-        <section id="theVistasMap" style="background-image: url('Media/Images/silverCreek-bg.png'); min-height: 420px; padding-top: 100px; padding-bottom: 100px">
+        <section id="theSaddlebrookMap" style="background-image: url('Media/Images/silverCreek-bg.png'); min-height: 420px; padding-top: 100px; padding-bottom: 100px">
             <div class="col-xs-12 col-sm-12 col-md-8 text-center">
 
                 <h3 style="color: white; font-family: 'Crimson Text', serif"><span class="fa fa-map-marker fa-3x" style="color: orangered"></span><br>Located at:</h3>
                 <h4 style="color: white; font-family: 'Crimson Text', serif">
-                    W. Hamlin Road between S. Livernois &amp; S. Rochester
+                    North side of Auburn Road between Crooks and Livernois
                     <br>
                     Rochester Hills, Michigan
                 </h4>
@@ -73,7 +73,7 @@ include "Scripts/PHP/theTitle.php";
             <div class="hidden-xs hidden-sm col-md-4 col-lg-4">
                 <!--Map-->
                 <!--Google Map-->
-                <script src="Scripts/jquery/googleMapNottingham.js"></script>
+                <script src="Scripts/jquery/googleMapSaddlebrook.js"></script>
 
                 <div class="googleMapAC">
                     <div id="map" style="width: 100%; min-height: 300px; border-radius: 10px;box-shadow: 2px 2px 4px #333; margin-top: 70px;"></div>
@@ -88,10 +88,10 @@ include "Scripts/PHP/theTitle.php";
             <div class="row col-xs-12 col-sm-12 hidden-md hidden-lg">
                 <!--Map-->
                 <!--Google Map-->
-                <script src="Scripts/jquery/googleMapNottingham.js"></script>
+                <script src="Scripts/jquery/googleMapSaddlebrook.js"></script>
 
                 <div class="googleMapAC">
-                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d20813.115162298982!2d-83.14381871102255!3d42.65432066699845!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8824ea39da033977%3A0xe18f194c9a61f745!2sNottingham+Blvd%2C+Rochester+Hills%2C+MI+48309!5e0!3m2!1sen!2sus!4v1500609838048" width="100%" height="350" frameborder="0" style="border:0; margin: auto" allowfullscreen></iframe>
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d11294.92398667982!2d-83.00366053824041!3d42.64888197764579!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sus!4v1500525044247" width="100%" height="350" frameborder="0" style="border:0; margin: auto" allowfullscreen></iframe>
                     <!--            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2929.4927347589614!2d-83.00621321310261!3d42.75678348525958!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8824e465514e7bc5%3A0xe159019d355c1aea!2s13598+29+Mile+Rd%2C+Washington%2C+MI+48094!5e0!3m2!1sen!2sus!4v1474082391201" width="100%" height="350" frameborder="0" style="border:0; margin: auto" allowfullscreen></iframe>-->
                 </div>
             </div>
@@ -108,13 +108,24 @@ include "Scripts/PHP/theTitle.php";
                     <div class="line2"></div>
                     <br><br>
                     <p class="col-md-8 col-md-push-2">
-                        Nottingham Woods is a new subdivision featuring DM Homes that is located in one of the most ideal locations in Rochester Hills featuring 17 over-sized lots. This subdivision will consist of large lots with a wide variety of size options including some wooded lots along with daylight and walkout lots.
-                        <br><br>
-                        Located in the award winning Rochester Hills school district, this is the perfect place to raise a family. Rochester Hills was voted the 9th best place to live in the country in 2007. Perfectly placed for easy access to Rochester Road as well as M-59 express way.
-                        <br><br>
-                        If you would like to be one of the first in this community and have your beautiful DM Homes, house be the shining star of the block, contact us today and we will notify you as soon as more details become public.
-
+                        Saddlebrook Orchards is a brand new subdivision offering a secluded single entrance main
+                        drive featuring 10 perfectly sized lots offering multiple homestyle options along with beautiful
+                        wooded lot features.
                     </p>
+
+                    <p class="col-md-8 col-md-push-2">
+                        Saddlebrook Orchards is located in Rochester Hills on the North side of Auburn Road
+                        between Crooks and Livernois Road. Only minutes away from Rochester Road and M-59
+                        express way.
+                    </p>
+
+                    <p class="col-md-8 col-md-push-2">
+                        Not only was Rochester Hills voted the 9th best place to raise a family in 2007 but Rochester
+                        also boast an award winning school district making Saddlebrook Orchards a perfect place to
+                        live. If you have interest in living in this wonderful subdivision please give us a call today.
+                    </p>
+
+
                 </div>
             </div>
 
@@ -130,24 +141,14 @@ include "Scripts/PHP/theTitle.php";
                         <div id="owlCarousel" class="owl-carousel">
 
                             <div class="item text-center">
-                                <h5>The Glenwood</h5><img src="Media/Images/Models/The_Glenwood.png" alt="The Glenwood" style="margin: auto"><br><a href="Models/theGlenwood.php?prev=nottingham" class="btn btn-default"><span class="fa fa-search"></span> View Details</a>
+                                <h5>The Claire</h5><img src="Media/Images/Models/The_Claire.png" alt="The Claire" style="margin: auto; width: 100%; height: auto; padding: 1rem;"><br><a href="Models/theClaire.php?prev=saddlebrook" class="btn btn-default"><span class="fa fa-search"></span> View Details</a>
                             </div>
                             <div class="item text-center">
-                                <h5>The Lancaster</h5><img src="Media/Images/Models/The_Lancaster.png" alt="The Lancaster" style="margin: auto"><br><a href="Models/theLancaster.php?prev=nottingham" class="btn btn-default"><span class="fa fa-search"></span> View Details</a>
+                                <h5>The Alexis</h5><img src="Media/Images/Models/The_Alexis.png" alt="The Alexis" style="margin: auto; width: 100%; height: auto; padding: 1rem;"><br><a href="Models/theAlexis.php?prev=saddlebrook" class="btn btn-default"><span class="fa fa-search"></span> View Details</a>
                             </div>
                             <div class="item text-center">
-                                <h5>The Manchester</h5><img src="Media/Images/Models/The_Manchester.png" alt="The Manchester" style="margin: auto"><br><a href="Models/theManchester.php?prev=nottingham" class="btn btn-default"><span class="fa fa-search"></span> View Details</a>
+                                <h5>The Wynwood</h5><img src="Media/Images/Models/The_Wynwood.png" alt="The Wynwood" style="margin: auto; width: 100%; height: auto; padding: 1rem;"><br><a href="Models/theWynwood.php?prev=saddlebrook" class="btn btn-default"><span class="fa fa-search"></span> View Details</a>
                             </div>
-                            <div class="item text-center">
-                                <h5>The Oxford</h5><img src="Media/Images/Models/The_Oxford.png" alt="The Oxford" style="margin: auto"><br><a href="Models/theOxford.php?prev=nottingham" class="btn btn-default"><span class="fa fa-search"></span> View Details</a>
-                            </div>
-                            <div class="item text-center">
-                                <h5>The Nottingham</h5><img src="Media/Images/Models/The_Nottingham.png" alt="The Nottingham" style="margin: auto"><br><a href="Models/theNottingham.php?prev=nottingham" class="btn btn-default"><span class="fa fa-search"></span> View Details</a>
-                            </div>
-                            <div class="item text-center">
-                                <h5>The Sherwood</h5><img src="Media/Images/Models/The_Sherwood.png" alt="The Sherwood" style="margin: auto"><br><a href="Models/theSherwood.php?prev=nottingham" class="btn btn-default"><span class="fa fa-search"></span> View Details</a>
-                            </div>
-
                         </div>
                     </div>
                 </div>
@@ -158,9 +159,9 @@ include "Scripts/PHP/theTitle.php";
 
         <section id="communityMap" style="margin-left: -15px; margin-right: -15px;">
             <div class="container-fluid" style="padding-left: 0px; padding-right: 0px;">
-                <div class="col-xs-12 col-md-6 autumnCreekMap text-center" style="background-image: url('Media/Images/Nottingham/Nottinghambg.jpg'); height: 540px;">
+                <div class="col-xs-12 col-md-6 autumnCreekMap text-center" style="background-image: url('Media/Images/Saddlebrook/saddlebrookMapbg.jpg'); height: 540px;">
 
-                    <img src="Media/Images/Nottingham/logo.png" class="img-responsive" style="margin: auto;padding-top: 100px;" />
+                    <img src="Media/Images/Saddlebrook/saddlebrookMapLogo.png" class="img-responsive" style="margin: auto;padding-top: 100px;" />
                     <h2 style="color: white; font-family: 'Crimson Text', serif; ">
                         Available Lots
                     </h2>
@@ -177,11 +178,46 @@ include "Scripts/PHP/theTitle.php";
                         Spec Homes
                     </h2>
 
-                    <div style="color: white; height: 250px; overflow-y: auto; overflow-x: hidden">
+                    <!-- <div style="color: white; height: 250px; overflow-y: auto; overflow-x: hidden">
                         <link href="http://dmhomesinc.com/Scripts/PHP/CMS/index.php?controller=pjFront&action=pjActionLoadCss" type="text/css" rel="stylesheet" />
-                        <script type="text/javascript" src="http://dmhomesinc.com/Scripts/PHP/CMS/index.php?controller=pjFront&action=pjActionLoad&id=10"></script>
-                    </div>
+                        <script type="text/javascript" src="http://dmhomesinc.com/Scripts/PHP/CMS/index.php?controller=pjFront&action=pjActionLoad&id=12"></script>
+                    </div> -->
 
+
+                    <div class="specHomes" aria-label="Avaliable Spec Homes">
+                        <!-- Start Spec Home -->
+                        <div class="specHome">
+                            <div class="specImage">
+                                <img src="./Media/Images/specHomes/lot2/IMG_6633.JPG" alt="Spec Homes">
+                            </div>
+                            <div class="info">
+                                <h3 class="title">Model: Claire Colonial</h3>
+                                <div class="flexRow">
+                                    <div class="squareFootage">2,653 sq. ft.</div>
+                                    <div class="lotNumber">Lot 2</div>
+                                    <a href="https://dmhomesinc.com/gallery.php" class="communityButton">View Gallery</a>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- End Spec Home -->
+
+                        <!-- Start Spec Home -->
+                        <div class="specHome">
+                            <div class="specImage">
+                                <img src="./Media/Images/specHomes/lot9/IMG_6631.JPG" alt="Spec Homes">
+                            </div>
+                            <div class="info">
+                                <h3 class="title">Model: Claire Colonial</h3>
+                                <div class="flexRow">
+                                    <div class="squareFootage">2,653 sq. ft.</div>
+                                    <div class="lotNumber">Lot 9</div>
+                                    <a href="https://dmhomesinc.com/gallery.php" class="communityButton">View Gallery</a>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- End Spec Home -->
+
+                    </div>
 
 
 
@@ -248,7 +284,7 @@ include "Scripts/PHP/theTitle.php";
                                 <li class="list-group-item">6'8" two-panel arch top Masonite interior doors</li>
                                 <li class="list-group-item">Hardwood flooring at foyer, hallway, powder room, kitchen and nook - per plan</li>
                                 <li class="list-group-item">Ceramic tiled floor in laundry room</li>
-                                <li class="list-group-item">Recessed lighting package (15 cans)</li>
+                                <li class="list-group-item">Recessed lighting package. (15 cans)</li>
                                 <li class="list-group-item">Choice of interior trim and wall colors from standard selection</li>
                                 <li class="list-group-item">Lever style door handles and hinges in brushed nickel</li>
                                 <li class="list-group-item">Custom wood staircase and hand railing</li>
@@ -414,10 +450,10 @@ include "Scripts/PHP/theTitle.php";
                     <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                         <span aria-hidden="true">&times;</span>
                     </button>
-                    <h4 class="modal-title">Nottingham Woods Subdivision Map</h4>
+                    <h4 class="modal-title">Saddlebrook Subdivision Map</h4>
                 </div>
                 <div class="modal-body">
-                    <img src="Media/Images/Nottingham/Nottingham.jpg" class="img-responsive" alt="Valencia map" />
+                    <img src="Media/Images/Saddlebrook/saddlebrookMap.jpg" class="img-responsive" alt="Saddlebrook map" />
 
                 </div>
                 <div class="modal-footer">

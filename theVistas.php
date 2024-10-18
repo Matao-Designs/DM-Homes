@@ -157,8 +157,8 @@ include"Scripts/PHP/theTitle.php";
                 </h2>
 
                 <div style="color: white; height: 250px; overflow-y: auto; overflow-x: hidden">
-                    <link href="/Scripts/PHP/CMS/index.php?controller=pjFront&action=pjActionLoadCss" type="text/css" rel="stylesheet" />
-                    <script type="text/javascript" src="/Scripts/PHP/CMS/index.php?controller=pjFront&action=pjActionLoad&id=2&hide=1"></script>
+                   <link href="http://dmhomesinc.com/Scripts/PHP/CMS/index.php?controller=pjFront&action=pjActionLoadCss" type="text/css" rel="stylesheet" />
+                   <script type="text/javascript" src="http://dmhomesinc.com/Scripts/PHP/CMS/index.php?controller=pjFront&action=pjActionLoad&id=8"></script>
                 </div>
 
 

@@ -1,5 +1,5 @@
 
-    <link href="../CSS/homeSlider.css" rel="stylesheet"/>
+    <link href="./CSS/homeSlider.css" rel="stylesheet"/>
 
     <div class="imageContainer">
         <div class="textOverlay">
