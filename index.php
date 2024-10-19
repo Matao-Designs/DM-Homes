@@ -1,20 +1,18 @@
 <?php
-//Page Includes
-$thePage = basename($_SERVER['PHP_SELF']);
-include "Scripts/PHP/customFunctions.php";
-include "Scripts/PHP/theTitle.php";
+  //Page Includes
+  $thePage = basename($_SERVER['PHP_SELF']);
+  include "Scripts/PHP/customFunctions.php";
+  include "Scripts/PHP/theTitle.php";
 ?>
 
 <!DOCTYPE html>
 <html>
-
 <head>
-
   <!--Meta Tags-->
   <?php
     include "Scripts/PHP/metaTags.php";
     printf(metaDescription($thePage));
-    ?>
+  ?>
 
   <!--Style Sheets-->
   <link href="CSS/bootstrap.css" rel="stylesheet" />
@@ -37,7 +35,6 @@ include "Scripts/PHP/theTitle.php";
   <link rel="preload" as="image" href="Media/Images/homeScreen/IMG_0782.jpg" media="(max-width: 1800px)">
 
   <title><?php printf(theTitle($thePage)) ?></title>
-
 </head>
 
 <body id="page-top">
@@ -53,9 +50,7 @@ include "Scripts/PHP/theTitle.php";
 <div class="container-fluid" id="mainContent">
   <!--Jumbotron-->
   <div class="row hidden-xs hidden-sm visible-md visible-lg">
-    <?php
-            include 'Scripts/homePageScroller.php';
-            ?>
+    <?php include 'Scripts/homePageScroller.php';?>
   </div>
 
   <!--Phone Splash page-->
@@ -183,41 +178,28 @@ include "Scripts/PHP/theTitle.php";
         <div class="col-sm-12 col-md-6">
 
           <div class="specHomes" aria-label="Avaliable Spec Homes">
-            <!-- Start Spec Home -->
-            <div class="specHome">
-              <div class="specImage">
-                <img src="./Media/Images/specHomes/lot2/IMG_6633.JPG" alt="Spec Homes">
-              </div>
-              <div class="info">
-                <h3 class="title">Model: Claire Colonial</h3>
-                <p class="community">Community: Saddlebrook</p>
-                <div class="flexRow">
-                  <div class="squareFootage">2,653 sq. ft.</div>
-                  <div class="lotNumber">Lot 1</div>
-                  <a href="https://dmhomesinc.com/valencia.php?valencia" class="communityButton">View Community</a>
-                  <a href="https://dmhomesinc.com/gallery.php" class="communityButton">View Gallery</a>
-                </div>
-              </div>
+            <div style="display: flex; justify-content: center; align-items: center; height: 100%;">
+              <h4>More spec homes coming soon.</h4>
             </div>
-            <!-- End Spec Home -->
 
-            <!-- Start Spec Home -->
-            <div class="specHome">
-              <div class="specImage">
-                <img src="./Media/Images/specHomes/lot9/IMG_6631.JPG" alt="Spec Homes">
-              </div>
-              <div class="info">
-                <h3 class="title">Model: Claire Colonial</h3>
-                <p class="community">Community: Saddlebrook</p>
-                <div class="flexRow">
-                  <div class="squareFootage">2,653 sq. ft.</div>
-                  <div class="lotNumber">Lot 8</div>
-                  <a href="https://dmhomesinc.com/saddlebrook.php?saddlebrook" class="communityButton">View Community</a>
-                  <a href="https://dmhomesinc.com/gallery.php" class="communityButton">View Gallery</a>
-                </div>
-              </div>
-            </div>
-            <!-- End Spec Home -->
+            <!--            &lt;!&ndash; Start Spec Home &ndash;&gt;-->
+<!--            <div class="specHome">-->
+<!--              <div class="specImage">-->
+<!--                <img src="./Media/Images/specHomes/lot2/IMG_6633.JPG" alt="Spec Homes">-->
+<!--              </div>-->
+<!--              <div class="info">-->
+<!--                <h3 class="title">Model: Claire Colonial</h3>-->
+<!--                <p class="community">Community: Saddlebrook</p>-->
+<!--                <div class="flexRow">-->
+<!--                  <div class="squareFootage">2,653 sq. ft.</div>-->
+<!--                  <div class="lotNumber">Lot 1</div>-->
+<!--                  <a href="https://dmhomesinc.com/valencia.php?valencia" class="communityButton">View Community</a>-->
+<!--                  <a href="https://dmhomesinc.com/gallery.php" class="communityButton">View Gallery</a>-->
+<!--                </div>-->
+<!--              </div>-->
+<!--            </div>-->
+<!--            &lt;!&ndash; End Spec Home &ndash;&gt;-->
+
           </div>
 
 
